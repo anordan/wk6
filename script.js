@@ -33,7 +33,7 @@ var churchillSpeech = {
 
 
 //use a loop so it doesn't matter how many times we have to compare.
-for (i = 0, i < speechesArray.length; i++) {
+for (i = 0, i < speechesArray.length; i++)
   if (speechesArray[i].year < oldestYear) {
     oldestYear = speechesArray[i].year;
   } else if (speechesArray[i].year > newestYear) {
